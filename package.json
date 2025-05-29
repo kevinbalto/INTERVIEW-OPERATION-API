@@ -2,10 +2,11 @@
   "name": "interiew-operation-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon --exec ts-node src/index.ts",
     "build": "tsc",
+    "start": "node dist/index.js",
     "test": "jest"
   },
   "keywords": [],
